@@ -1,0 +1,26 @@
+{
+  "name": "redis-caching-nodejs",
+  "version": "1.0.0",
+  "description": "This is the project i am making for my learning purpose for learning redis caching",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rishabhsharma3617/Redis-Caching-Nodejs.git"
+  },
+  "author": "Rishabh Sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rishabhsharma3617/Redis-Caching-Nodejs/issues"
+  },
+  "homepage": "https://github.com/rishabhsharma3617/Redis-Caching-Nodejs#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0",
+    "nodemon": "^2.0.2",
+    "redis": "^3.0.2"
+  }
+}
